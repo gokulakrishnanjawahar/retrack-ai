@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="262" viewBox="0 0 760 262" role="img" aria-labelledby="title">
+  <title id="title">pip install retrack-ai, add retrack.init() to your agent, and its runs become playbooks, warnings and recalls in the Retrack dashboard (sample data)</title>
+  <style>
+@keyframes terminal { 0%, 41.808% { opacity: 1; } 44.500%, 100% { opacity: 0; } }
+.terminal { animation: terminal 13.0s infinite; }
+@keyframes dashboard { 0%, 42.962% { opacity: 0; } 46.423%, 96.154% { opacity: 1; } 100% { opacity: 0; } }
+.dashboard { animation: dashboard 13.0s infinite; }
+@keyframes type0 { 0%, 3.231% { transform: translateX(0px); animation-timing-function: steps(22, end); } 10.846%, 100% { transform: translateX(184.8px); } }
+.type0 { animation: type0 13.0s infinite; }
+@keyframes cur0 { 0%, 0.000% { opacity: 0; } 0.010%, 10.846% { opacity: 1; } 10.856%, 100% { opacity: 0; } }
+.cur0 { animation: cur0 13.0s infinite; }
+@keyframes out1 { 0%, 13.538% { opacity: 0; } 13.548%, 100% { opacity: 1; } }
+.out1 { animation: out1 13.0s infinite; }
+@keyframes out2 { 0%, 17.385% { opacity: 0; } 17.395%, 100% { opacity: 1; } }
+.out2 { animation: out2 13.0s infinite; }
+@keyframes out3 { 0%, 21.231% { opacity: 0; } 21.241%, 100% { opacity: 1; } }
+.out3 { animation: out3 13.0s infinite; }
+@keyframes type4 { 0%, 26.615% { transform: translateX(0px); animation-timing-function: steps(15, end); } 31.808%, 100% { transform: translateX(126.0px); } }
+.type4 { animation: type4 13.0s infinite; }
+@keyframes cur4 { 0%, 21.231% { opacity: 0; } 21.241%, 31.808% { opacity: 1; } 31.818%, 100% { opacity: 0; } }
+.cur4 { animation: cur4 13.0s infinite; }
+@keyframes prompt4 { 0%, 21.231% { opacity: 0; } 21.241%, 100% { opacity: 1; } }
+.prompt4 { animation: prompt4 13.0s infinite; }
+@keyframes note4 { 0%, 31.808% { opacity: 0; } 31.818%, 100% { opacity: 1; } }
+.note4 { animation: note4 13.0s infinite; }
+@keyframes row0 { 0%, 44.885% { opacity: 0; transform: translateY(-8px); animation-timing-function: ease-out; } 47.192%, 100% { opacity: 1; transform: translateY(0px); } }
+.row0 { animation: row0 13.0s infinite; }
+@keyframes cap0 { 0%, 44.885% { opacity: 0; } 44.895%, 51.808% { opacity: 1; } 51.818%, 100% { opacity: 0; } }
+.cap0 { animation: cap0 13.0s infinite; }
+@keyframes ver0 { 0%, 51.808% { opacity: 0; } 53.346%, 100% { opacity: 1; } }
+.ver0 { animation: ver0 13.0s infinite; }
+@keyframes row1 { 0%, 55.654% { opacity: 0; transform: translateY(-8px); animation-timing-function: ease-out; } 57.962%, 100% { opacity: 1; transform: translateY(0px); } }
+.row1 { animation: row1 13.0s infinite; }
+@keyframes cap1 { 0%, 55.654% { opacity: 0; } 55.664%, 62.577% { opacity: 1; } 62.587%, 100% { opacity: 0; } }
+.cap1 { animation: cap1 13.0s infinite; }
+@keyframes ver1 { 0%, 62.577% { opacity: 0; } 64.115%, 100% { opacity: 1; } }
+.ver1 { animation: ver1 13.0s infinite; }
+@keyframes row2 { 0%, 66.423% { opacity: 0; transform: translateY(-8px); animation-timing-function: ease-out; } 68.731%, 100% { opacity: 1; transform: translateY(0px); } }
+.row2 { animation: row2 13.0s infinite; }
+@keyframes cap2 { 0%, 66.423% { opacity: 0; } 66.433%, 73.346% { opacity: 1; } 73.356%, 100% { opacity: 0; } }
+.cap2 { animation: cap2 13.0s infinite; }
+@keyframes ver2 { 0%, 73.346% { opacity: 0; } 74.885%, 100% { opacity: 1; } }
+.ver2 { animation: ver2 13.0s infinite; }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <clipPath id="card"><rect width="760" height="262" rx="14"/></clipPath>
+  <g clip-path="url(#card)">
+  <g class="dashboard">
+    <rect width="760" height="262" fill="#0d0e11"/>
+    <circle cx="28" cy="20" r="4" fill="#43d58f"/>
+    <text x="40" y="25" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#f1f2f4">support-agent<tspan font-weight="400" fill="#60636a"> / production</tspan></text>
+    <text x="736" y="24" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#60636a">retrack dashboard · sample data</text>
+    <rect y="40" width="760" height="1" fill="rgba(255,255,255,0.06)"/>
+    <g class="row0">
+      <rect x="16.5" y="52.5" width="727" height="57" rx="9" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.08)"/>
+      <text x="32" y="76" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#e6e7ea">Refund order #4821: item arrived damaged</text>
+      <g class="cap0" opacity="0"><rect x="650.6" y="62" width="77.4" height="20" rx="10" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.10)"/>
+      <text x="689.3" y="76" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#8f929a">capturing</text></g>
+      <g class="ver0"><rect x="657.2" y="62" width="70.8" height="20" rx="10" fill="rgba(67,213,143,0.10)" stroke="rgba(67,213,143,0.28)"/>
+      <text x="692.6" y="76" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#43d58f">verified</text></g>
+      <text class="ver0" x="32" y="96" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#60636a">orders_api → <tspan fill="#8f929a">Playbook · refund damaged-item orders</tspan></text>
+    </g>
+    <g class="row1">
+      <rect x="16.5" y="120.5" width="727" height="57" rx="9" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.08)"/>
+      <text x="32" y="144" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#e6e7ea">Change address after the parcel shipped</text>
+      <g class="cap1" opacity="0"><rect x="650.6" y="130" width="77.4" height="20" rx="10" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.10)"/>
+      <text x="689.3" y="144" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#8f929a">capturing</text></g>
+      <g class="ver1"><rect x="670.4" y="130" width="57.6" height="20" rx="10" fill="rgba(254,98,108,0.10)" stroke="rgba(254,98,108,0.28)"/>
+      <text x="699.2" y="144" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#fe626c">failed</text></g>
+      <text class="ver1" x="32" y="164" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#60636a">carrier_api → <tspan fill="#8f929a">Failure · carrier 409 already dispatched</tspan></text>
+    </g>
+    <g class="row2">
+      <rect x="16.5" y="188.5" width="727" height="57" rx="9" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.08)"/>
+      <text x="32" y="212" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#e6e7ea">Next task: refund order #5112, box arrived crushed</text>
+      <g class="cap2" opacity="0"><rect x="650.6" y="198" width="77.4" height="20" rx="10" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.10)"/>
+      <text x="689.3" y="212" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#8f929a">recalling</text></g>
+      <g class="ver2"><rect x="657.2" y="198" width="70.8" height="20" rx="10" fill="rgba(149,138,255,0.10)" stroke="rgba(149,138,255,0.28)"/>
+      <text x="692.6" y="212" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#958aff">recalled</text></g>
+      <text class="ver2" x="32" y="232" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#60636a">recall → <tspan fill="#8f929a">Playbook · refund damaged-item orders</tspan></text>
+    </g>
+  </g>
+  <g class="terminal" opacity="0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14">
+    <rect width="760" height="262" fill="#0a0a0d"/>
+    <circle cx="22" cy="18" r="5.5" fill="#2a2b31"/><circle cx="40" cy="18" r="5.5" fill="#2a2b31"/><circle cx="58" cy="18" r="5.5" fill="#2a2b31"/>
+    <text x="380.0" y="22" text-anchor="middle" font-size="12" fill="#60636a">~/support-agent</text>
+    <rect y="36" width="760" height="1" fill="rgba(255,255,255,0.06)"/>
+    <g>
+      <text x="24" y="64" fill="#60636a">$</text>
+      <text x="42" y="64" fill="#f1f2f4" textLength="184.8" lengthAdjust="spacing">pip install retrack-ai</text>
+    </g>
+    <clipPath id="clip0"><rect x="42" y="46" width="193.8" height="24"/></clipPath>
+    <g clip-path="url(#clip0)">
+      <g class="type0" transform="translate(184.8 0)">
+        <rect x="42" y="48" width="193.8" height="21" fill="#0a0a0d"/>
+        <g class="cur0" opacity="0"><rect x="42.5" y="51" width="8" height="17" fill="#f1f2f4" fill-opacity="0.7"/></g>
+      </g>
+    </g>
+    <text class="out1" x="24" y="89" fill="#8f929a">Collecting retrack-ai</text>
+    <text class="out2" x="24" y="114" fill="#8f929a">Installing collected packages: retrack-ai</text>
+    <text class="out3" x="24" y="139" fill="#43d58f">Successfully installed retrack-ai-0.2.0</text>
+    <g class="prompt4">
+      <text x="24" y="164" fill="#60636a">$</text>
+      <text x="42" y="164" fill="#f1f2f4" textLength="126.0" lengthAdjust="spacing">python agent.py</text>
+    </g>
+    <clipPath id="clip4"><rect x="42" y="146" width="135.0" height="24"/></clipPath>
+    <g clip-path="url(#clip4)">
+      <g class="type4" transform="translate(126.0 0)">
+        <rect x="42" y="148" width="135.0" height="21" fill="#0a0a0d"/>
+        <g class="cur4" opacity="0"><rect x="42.5" y="151" width="8" height="17" fill="#f1f2f4" fill-opacity="0.7"/></g>
+      </g>
+    </g>
+    <text class="note4" x="184.8" y="164" fill="#60636a" textLength="184.8" lengthAdjust="spacing"># retrack.init() added</text>
+  </g>
+  </g>
+  <rect x="0.5" y="0.5" width="759" height="261" rx="13.5" fill="none" stroke="rgba(255,255,255,0.10)"/>
+</svg>
